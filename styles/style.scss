@@ -1,4 +1,9 @@
-@import url("https://fonts.google.com/specimen/Outfit");
+@font-face {
+    font-family:"NewFont";
+    src: url(./Outfit-VariableFont_wght.ttf);
+}
+
+
 
 $pixel-15: 15px;
 
@@ -23,6 +28,7 @@ body {
         font-size: $pixel-15;
         text-align: center;
         padding-top: $pixel-15;
+        font-family: "NewFont";
     }
 
     .card-text {
